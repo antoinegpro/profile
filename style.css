@@ -1,0 +1,101 @@
+body {
+  background-color: rgba(230, 230, 230, 1);
+  font-family: 'Newsreader', serif;
+  color: rgba(64, 64, 64, 1);
+  font-size: 16 px;
+  line-height: 1.3;
+}
+
+h1 {
+  color: #551A8B;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.5;
+}
+
+h2, h3 {
+  color: rgba(64, 64, 64, 1);
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.5;
+}
+
+a:hover {
+  color: red;
+}
+
+.container {
+  width: 50%;
+  max-width: 500px;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.card {
+  width: 50%;
+  max-width: 500px;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 36px;
+}
+
+.btn-purple {
+  width: 100px;
+  background-color: #551A8B;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+p {
+  margin: 20px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container .card {
+    width: 300px;
+  }
+}
